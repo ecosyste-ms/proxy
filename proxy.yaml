@@ -1,0 +1,8 @@
+cooldown:
+  profiles:
+    1d:
+      default: "1d"
+    3d:
+      default: "3d"
+    7d:
+      default: "7d"

@@ -1,0 +1,49 @@
+.site-logo { width: 246px; height: 50px; }
+.skip-link { position: absolute; left: 1rem; top: -5rem; z-index: 10; padding: .75rem 1rem; background: white; }
+.skip-link:focus { top: 1rem; }
+.proxy-hero { padding: 4rem 0 4.5rem; }
+.proxy-hero h1 { max-width: 46rem; font-size: clamp(2.75rem, 4.2vw, 4.75rem); line-height: 1.1; letter-spacing: -.035em; }
+.proxy-intro { max-width: 43rem; margin: 1.5rem 0 0; font-size: 1.25rem; line-height: 1.55; }
+.proxy-intro strong { font-weight: 600; }
+.proxy-install { padding-top: 4rem; padding-bottom: 4rem; scroll-margin-top: 1.5rem; }
+.proxy-install p, .proxy-about p { line-height: 1.6; }
+.cooldown-picker { display: none; margin: 0 0 1.5rem; padding: 0; border: 0; min-width: 0; }
+.js .cooldown-picker { display: block; }
+.cooldown-picker legend { float: none; width: auto; margin: 0 0 .75rem; font-size: 1rem; font-weight: 700; }
+.cooldown-options { display: inline-flex; padding: .25rem; gap: .25rem; border: 1px solid var(--es-grey); border-radius: 2rem; background: var(--es-grey-light); }
+.cooldown-options label { margin: 0; padding: .5rem 1.125rem; border-radius: 2rem; color: var(--es-purple-dark); font-size: .9375rem; font-weight: 600; cursor: pointer; }
+.cooldown-options label:hover { background: white; }
+.cooldown-radio:checked + label { background: var(--es-purple-dark); color: white; }
+.cooldown-radio:focus-visible + label { outline: 3px solid var(--es-purple); outline-offset: 2px; }
+.cooldown-picker p { max-width: 34rem; margin: .75rem 0 0; font-size: .875rem; color: var(--es-grey-dark); }
+.cooldown-only { display: none; }
+.cooldown-available { display: inline-flex; border: 1px solid var(--es-grey); border-radius: 1rem; padding: .15rem .5rem; font-size: .6875rem; font-weight: 500; white-space: nowrap; color: var(--es-grey-dark); }
+.has-cooldown .cooldown-only { display: block; }
+.install-list { border: 1px solid var(--es-grey); border-radius: .75rem; overflow: hidden; }
+.install-item + .install-item { border-top: 1px solid var(--es-grey); }
+.install-item summary { display: flex; align-items: center; gap: .75rem; padding: 1.125rem 1.5rem; cursor: pointer; list-style: none; font-weight: 700; }
+.install-item summary::-webkit-details-marker { display: none; }
+.install-item summary::after { content: "+"; margin-left: auto; width: 1rem; font-weight: 400; color: var(--es-purple-dark); text-align: center; }
+.install-item[open] summary { background: var(--es-grey-light); }
+.install-item[open] summary::after { content: "−"; }
+.install-item summary:hover { background: var(--es-grey-light); }
+.install-item summary:focus-visible { outline: 3px solid var(--es-purple); outline-offset: -3px; }
+.install-language { font-size: .875rem; font-weight: 400; color: var(--es-grey-dark); }
+.install-body { padding: 1.25rem 1.5rem 1.5rem; }
+.install-body p { font-size: 1rem; }
+.snippet-heading { display: flex; justify-content: space-between; align-items: center; padding: .65rem 1rem; background: var(--es-grey-light); border: 1px solid var(--es-grey); border-bottom: 0; border-radius: .5rem .5rem 0 0; color: var(--es-grey-dark); font-size: .8125rem; }
+.copy-button { visibility: hidden; border: 0; background: transparent; padding: .15rem .25rem; color: var(--es-purple-dark); font: inherit; font-weight: 600; }
+.js .copy-button { visibility: visible; }
+.copy-button:hover { text-decoration: underline; }
+.copy-button:focus-visible { outline: 2px solid var(--es-purple-dark); outline-offset: 2px; }
+.install-body pre { margin: 0; padding: 1rem; border: 1px solid var(--es-grey); border-radius: 0 0 .5rem .5rem; font-size: .875rem; line-height: 1.7; color: var(--es-black); white-space: pre-wrap; overflow-wrap: anywhere; }
+.proxy-about { padding: 3rem 0; }
+.footer { margin-top: 0; }
+@media (max-width: 575.98px) {
+  .proxy-hero { padding-top: 2.5rem; padding-bottom: 3rem; }
+  .proxy-intro { font-size: 1.125rem; }
+  .proxy-install { padding-top: 3rem; padding-bottom: 3rem; }
+  .install-item summary { padding: 1rem; flex-wrap: wrap; }
+  .install-language { font-size: .75rem; }
+  .install-body { padding: 1rem; }
+}

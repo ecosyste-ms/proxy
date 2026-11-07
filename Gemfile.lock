@@ -1,0 +1,30 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    dotenv (3.2.0)
+    json (3.1.0)
+    power_assert (3.1.0)
+    test-unit (3.7.8)
+      power_assert
+
+PLATFORMS
+  arm64-darwin-25
+  ruby
+
+DEPENDENCIES
+  dotenv
+  json
+  test-unit
+
+CHECKSUMS
+  bundler (4.1.0.beta3) sha256=3a0dbbbb7c86af269517a9de67903472e219d3ae9edb3b6b4da7706cdc993d12
+  dotenv (3.2.0)
+  json (3.1.0)
+  power_assert (3.1.0)
+  test-unit (3.7.8)
+
+RUBY VERSION
+  ruby 4.0.9
+
+BUNDLED WITH
+  4.1.0.beta3
