@@ -24,7 +24,7 @@ CHECKSUMS
   test-unit (3.7.8)
 
 RUBY VERSION
-  ruby 4.0.9
+  ruby 4.0.10
 
 BUNDLED WITH
   4.1.0.beta3
